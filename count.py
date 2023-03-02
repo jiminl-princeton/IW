@@ -35,7 +35,7 @@ def main():
     word_counts = defaultdict(int)
     pwd = os.path.join(root, path)
     os.chdir(pwd)
-    for file in os.listdir():
+    for file in sorted(os.listdir()):
         if file.endswith(".txt"):
             file_path = f"{pwd}/{file}"
             fname = os.path.basename(file)
