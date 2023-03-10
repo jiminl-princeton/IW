@@ -26,6 +26,21 @@ def read_text_file(file_path):
     for word in words:
         word_freq[word] = word_freq.get(word, 0) + 1
 
+def get_words(path):
+    root = "/Users/alicelee/Desktop/IW"
+    pwd = os.path.join(root, path)
+    os.chdir(pwd)
+    for file in sorted(os.listdir()):
+        if file.endswith(".txt"):
+            file_path = f"{pwd}/{file}"
+            fname = os.path.basename(file)
+            read_text_file(file_path)
+    ordered_word_freq = dict(sorted(word_freq.items(), key=lambda x:x[1]))
+    res = {}
+    for w in ordered_word_freq:
+        res[w] = res.get(w, 0) + 1
+    return res
+
 def main():
     root = "/Users/alicelee/Desktop/IW"
     path = get_args()
