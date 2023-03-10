@@ -42,7 +42,7 @@ def get_words(path):
     return res
 
 def main():
-    root = "/Users/alicelee/Desktop/IW"
+    root = "/Users/alicelee/Desktop/SPRING2023/IW"
     path = get_args()
     pwd = os.path.join(root, path)
     os.chdir(pwd)
@@ -52,8 +52,17 @@ def main():
             fname = os.path.basename(file)
             read_text_file(file_path)
     ordered_word_freq = dict(sorted(word_freq.items(), key=lambda x:x[1]))
-    for w in ordered_word_freq:
-        print(w + ":", ordered_word_freq[w])
+    filename = ""
+    if path == "data/1880sfemalecorpus":
+        filename = "wordfreq_female.txt"
+    elif path == "data/1880smalecorpus":
+        filename = "wordfreq_male.txt"
+    new_path = "/Users/alicelee/Desktop/SPRING2023/IW/results/"
+    with open(new_path + filename, "w+") as f:
+        for w in ordered_word_freq:
+            f.write(w + ": " + str(ordered_word_freq[w]) + "\n")
+    # for w in ordered_word_freq:
+    #     print(w + ":", ordered_word_freq[w])
 
 if __name__ == "__main__":
     main()

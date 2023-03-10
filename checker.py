@@ -16,7 +16,7 @@ def get_args():
         sys.exit(2)
 
 def main():
-    root = "/Users/alicelee/Desktop/IW"
+    root = "/Users/alicelee/Desktop/SPRING2023/IW"
     path = get_args()
     spell = SpellChecker()
     word_freq = wordfreq.get_words(path)
