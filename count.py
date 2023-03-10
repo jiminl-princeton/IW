@@ -28,7 +28,7 @@ def read_text_file(file_path):
     return cc, lc, wc
 
 def main():
-    root = "/Users/alicelee/Desktop/IW"
+    root = "/Users/alicelee/Desktop/SPRING2023/IW"
     path = get_args()
     pwd = os.path.join(root, path)
     os.chdir(pwd)
@@ -43,13 +43,26 @@ def main():
             char_counts[fname] = cc
             line_counts[fname] = lc
             word_counts[fname] = wc
-    for title in char_counts:
-        print(title)
-        print("---------------------------------------")
-        print("Character count:", char_counts[title])
-        print("Line count:", line_counts[title])
-        print("Word count:", word_counts[title])
-        print()
+    filename = ""
+    if path == "data/1880sfemalecorpus":
+        filename = "count_female.txt"
+    elif path == "data/1880smalecorpus":
+        filename = "count_male.txt"
+    new_path = "/Users/alicelee/Desktop/SPRING2023/IW/results/"
+    with open(new_path + filename, "w+") as f:
+        for title in char_counts:
+            f.write(title + "\n")
+            f.write("Character count: " + str(char_counts[title]) + "\n")
+            f.write("Line count: " + str(line_counts[title]) + "\n")
+            f.write("Word count: " + str(word_counts[title]) + "\n")
+            f.write("\n")
+    # for title in char_counts:
+    #     print(title)
+    #     print("---------------------------------------")
+    #     print("Character count:", char_counts[title])
+    #     print("Line count:", line_counts[title])
+    #     print("Word count:", word_counts[title])
+    #     print()
 
 if __name__ == "__main__":
     main()
