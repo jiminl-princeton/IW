@@ -2,6 +2,8 @@ import argparse
 import os
 import sys
 from collections import defaultdict
+import pandas as pd
+import re
 
 word_freq = defaultdict(int)
 
@@ -18,10 +20,23 @@ def get_args():
         print(ex, file=sys.stderr)
         sys.exit(2)
 
+# Start citation: https://stackoverflow.com/questions/65731202/word-count-frequency-except-punctuation
+REPLACE_BY_SPACE_RE = re.compile('[/(){}\[\]\|@,;]')
+BAD_SYMBOLS_RE = re.compile('[^0-9a-z #+_]')
+
+def clean_text(text):
+    text = text.lower()
+    text = REPLACE_BY_SPACE_RE.sub(' ', text)
+    text = BAD_SYMBOLS_RE.sub('', text)
+    
+    return text
+# End citation
+
 def read_text_file(file_path):
     words = []
     with open(file_path, 'r') as f:
         txt = f.read()
+        txt = clean_text(txt)
         words = txt.split()
     for word in words:
         word_freq[word] = word_freq.get(word, 0) + 1
