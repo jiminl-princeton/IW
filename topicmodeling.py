@@ -11,7 +11,7 @@ from nltk.stem.wordnet import WordNetLemmatizer
 
 parser = English()
 en_stop = set(nltk.corpus.stopwords.words('english'))
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_sm", disable=['tagger','ner'])
 
 def get_args():
     try:
@@ -43,9 +43,10 @@ def get_text(file_path):
         # Source: https://stackoverflow.com/questions/1342000/how-to-make-the-python-interpreter-correctly-handle-non-ascii-characters-in-stri
         text = "".join([x if ord(x) < 128 and x != '^' else '' for x in text])
     return text
-
+    
 def tokenize(text):
     lda_tokens = []
+    nlp.max_length = len(text) + 100
     tokens = parser(text)
     for token in tokens:
         if token.orth_.isspace():
@@ -86,7 +87,6 @@ def create_output_file(gender, all_topics):
             for w in topic:
                 f.write(w + " ")
             f.write("\n")
-        nlp.max_length = 1006000
 
 def main():
     root = "/Users/alicelee/Desktop/SPRING2023/IW"
@@ -98,7 +98,7 @@ def main():
     for file in sorted(os.listdir()):
         if file.endswith(".txt"):
             file_path = f"{pwd}/{file}"
-            text = get_text(file_path)        
+            text = get_text(file_path)
             words = prepare_text_for_lda(text)
             all_topics.append(words)
 
