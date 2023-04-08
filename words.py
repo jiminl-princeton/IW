@@ -44,7 +44,7 @@ def update_word_freq(text):
         word_freq[token] = word_freq.get(token, 0) + 1
 
 def create_output_file(gender, ordered_word_freq):
-    filepath = ""
+    filename = ""
     if gender == "female":
         filename = "wordfreq_female.txt"
     elif gender == "male":

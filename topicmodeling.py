@@ -76,7 +76,7 @@ def prepare_text_for_lda(text):
     return words
 
 def create_output_file(gender, all_topics):
-    filepath = ""
+    filename = ""
     if gender == "female":
         filename = "topics_female.txt"
     elif gender == "male":

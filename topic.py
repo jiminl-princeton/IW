@@ -12,7 +12,6 @@ files = glob.glob(f"{directory}/*.txt")
 training_data = []
 for file in files:
     text = open(file, encoding='utf-8').read()
-    text = "".join([x if ord(x) < 128 and x != '^' else '' for x in text])
     processed_text = little_mallet_wrapper.process_string(text, numbers='remove')
     training_data.append(processed_text)
 
