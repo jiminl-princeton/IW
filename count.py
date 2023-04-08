@@ -1,68 +1,62 @@
 import argparse
 import os
 import sys
+import glob
+from pathlib import Path
 from collections import defaultdict
 
 def get_args():
     try:
         parser = argparse.ArgumentParser(allow_abbrev=False,
-            description='Character, line, word counter per text')
-        parser.add_argument('path', type=str, metavar='path',
-            help="path to data")
+            description='Word frequency counter across all texts')
+        parser.add_argument('gender', type=str, metavar='gender',
+            help="gender of writers for corpus")
         args = parser.parse_args()
-        path = args.path
-        return path
+        gender = args.gender
+        if gender != "female" and gender != "male":
+            print("Invalid gender of writers for corpus", file=sys.stderr)
+            sys.exit(1)
+        return gender
     except Exception as ex:
         print(ex, file=sys.stderr)
         sys.exit(2)
 
-def read_text_file(file_path):
-    cc = 0
-    lc = 0
-    wc = 0
-    with open(file_path, 'r') as f:
-        txt = f.read()
-        cc = len(txt)
-        lc = len(txt.split('\n'))
-        wc = len(txt.split())
-    return cc, lc, wc
+def get_counts(gender):
+    directory = f"data_refined/{gender}"
+    files = glob.glob(f"{directory}/*.txt")
 
-def main():
-    root = "/Users/alicelee/Desktop/SPRING2023/IW"
-    path = get_args()
-    pwd = os.path.join(root, path)
-    os.chdir(pwd)
     char_counts = defaultdict(int)
     line_counts = defaultdict(int)
     word_counts = defaultdict(int)
-    for file in sorted(os.listdir()):
-        if file.endswith(".txt"):
-            file_path = f"{pwd}/{file}"
-            fname = os.path.basename(file)
-            cc, lc, wc = read_text_file(file_path)
-            char_counts[fname] = cc
-            line_counts[fname] = lc
-            word_counts[fname] = wc
-    filename = ""
-    if path == "data/1880sfemalecorpus":
-        filename = "count_female.txt"
-    elif path == "data/1880smalecorpus":
-        filename = "count_male.txt"
-    new_path = "/Users/alicelee/Desktop/SPRING2023/IW/results/"
-    with open(new_path + filename, "w+") as f:
-        for title in char_counts:
+    
+    for file in files:
+        text = open(file, encoding='utf-8').read()
+        cc = len(text)
+        lc = len(text.split('\n'))
+        wc = len(text.split())
+        fname = os.path.basename(file)
+        char_counts[fname] = cc
+        line_counts[fname] = lc
+        word_counts[fname] = wc
+
+    return char_counts, line_counts, word_counts
+
+def write_to_output(gender, char_counts, line_counts, word_counts):
+    p = Path('results/')
+    p.mkdir(parents=True, exist_ok=True)
+    filepath = p / f'count_{gender}.txt'
+    with filepath.open("w+", encoding ="utf-8") as f:
+        for title in sorted(char_counts):
             f.write(title + "\n")
             f.write("Character count: " + str(char_counts[title]) + "\n")
             f.write("Line count: " + str(line_counts[title]) + "\n")
             f.write("Word count: " + str(word_counts[title]) + "\n")
             f.write("\n")
-    # for title in char_counts:
-    #     print(title)
-    #     print("---------------------------------------")
-    #     print("Character count:", char_counts[title])
-    #     print("Line count:", line_counts[title])
-    #     print("Word count:", word_counts[title])
-    #     print()
+
+def main():
+    gender = get_args()
+    char_counts, line_counts, word_counts = get_counts(gender)
+    write_to_output(gender, char_counts, line_counts, word_counts)
 
 if __name__ == "__main__":
     main()

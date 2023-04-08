@@ -1,182 +1,182 @@
 AdamsFrancisWilliamLauderdale__Leicesteranautobiography.txt
-Character count: 536246
-Line count: 17293
-Word count: 106650
+Character count: 514227
+Line count: 16530
+Word count: 102032
 
 AideCharlesHamilton__Poetandpeer.txt
-Character count: 901545
-Line count: 25484
-Word count: 165143
+Character count: 844578
+Line count: 24162
+Word count: 154724
 
 AlexanderGeorgeGardiner__DoctorVictoriaapicturefromtheperiod.txt
-Character count: 1558425
-Line count: 46009
-Word count: 296022
+Character count: 1051657
+Line count: 31022
+Word count: 197965
 
 AllenGrant__Inallshadesanovel.txt
-Character count: 748053
-Line count: 23461
-Word count: 134930
+Character count: 746591
+Line count: 23454
+Word count: 133705
 
 AllenGrant__ThetentsofShem.txt
-Character count: 818174
-Line count: 26686
-Word count: 146579
+Character count: 702278
+Line count: 21076
+Word count: 126994
 
 AllisonWilliamBlinkhoolie__BlairAtholanovel.txt
-Character count: 672286
-Line count: 19760
-Word count: 125046
+Character count: 668200
+Line count: 19589
+Word count: 123934
 
 BaillieHamiltonWilliamAlexander__MrMontenelloaromanceofthecivilservice.txt
-Character count: 916855
-Line count: 24392
-Word count: 165136
+Character count: 671997
+Line count: 17554
+Word count: 121159
 
 BaringGouldSabine__CourtRoyalastoryofcrosscurrents.txt
-Character count: 939441
-Line count: 28775
-Word count: 177492
+Character count: 932876
+Line count: 28545
+Word count: 175559
 
 BaringGouldSabine__JohnHerringawestofEnglandromance.txt
-Character count: 1017518
-Line count: 31169
-Word count: 192208
+Character count: 1014574
+Line count: 31082
+Word count: 190771
 
 BaringGouldSabine__Redspider.txt
-Character count: 772194
-Line count: 28296
-Word count: 139997
+Character count: 643844
+Line count: 22089
+Word count: 118767
 
 BaringGouldSabine__RichardCablethelightshipman.txt
-Character count: 1064879
-Line count: 30738
-Word count: 202613
+Character count: 1052688
+Line count: 30304
+Word count: 199387
 
 BaringGouldSabine__TheGaverocksataleoftheCornishcoast.txt
-Character count: 901710
-Line count: 26611
-Word count: 171360
+Character count: 900507
+Line count: 26586
+Word count: 170439
 
 BaringGouldSabine__ThePennycomequicksanovel.txt
-Character count: 876704
-Line count: 23539
-Word count: 161259
+Character count: 873806
+Line count: 23410
+Word count: 159751
 
 BarrettFrank__Aprodigalsprogress.txt
-Character count: 683924
-Line count: 22390
-Word count: 128926
+Character count: 680038
+Line count: 22186
+Word count: 127846
 
 BarrettFrank__FollyMorrisonanovel.txt
-Character count: 902211
-Line count: 29618
-Word count: 168732
+Character count: 894616
+Line count: 29246
+Word count: 166122
 
 BarrettFrank__LieutenantBarnabasanovel.txt
-Character count: 670641
-Line count: 23852
-Word count: 126424
+Character count: 669173
+Line count: 23807
+Word count: 125586
 
 BarrettFrank__TheadmirableLadyBiddyFanehersurprisingcuriousadventuresinstrangepartshappydeliverancef.txt
-Character count: 915889
-Line count: 26920
-Word count: 172968
+Character count: 862232
+Line count: 24876
+Word count: 163924
 
 BesantWalter__Allinagardenfairthesimplestoryofthreeboysandagirl.txt
-Character count: 931165
-Line count: 28702
-Word count: 174278
+Character count: 828405
+Line count: 23812
+Word count: 156708
 
 BesantWalter__Allsortsandconditionsofmenanimpossiblestory.txt
-Character count: 917848
-Line count: 26535
-Word count: 172074
+Character count: 911433
+Line count: 26349
+Word count: 169936
 
 BesantWalter__ChildrenofGibeon.txt
-Character count: 1119481
-Line count: 34329
-Word count: 209983
+Character count: 1007123
+Line count: 28931
+Word count: 190372
 
 BesantWalter__Thecaptainsroometc.txt
-Character count: 1125756
-Line count: 30354
-Word count: 212483
+Character count: 1123310
+Line count: 30281
+Word count: 210930
 
 BesantWalter__Thechaplainofthefleetanovel.txt
-Character count: 885762
-Line count: 25837
-Word count: 167411
+Character count: 882734
+Line count: 25738
+Word count: 165879
 
 BesantWalter__Thetenyearstenantandotherstories.txt
-Character count: 635814
-Line count: 18933
-Word count: 120736
+Character count: 634773
+Line count: 18900
+Word count: 120037
 
 BesantWalter__Theworldwentverywellthen.txt
-Character count: 1027702
-Line count: 30658
-Word count: 191861
+Character count: 1021583
+Line count: 30424
+Word count: 189834
 
 BlackWilliam__InfarLochaber.txt
-Character count: 762488
-Line count: 23207
-Word count: 143211
+Character count: 694045
+Line count: 20645
+Word count: 130735
 
 BlackWilliam__Sunriseastoryofthesetimes.txt
-Character count: 1052709
-Line count: 30953
-Word count: 200502
+Character count: 985641
+Line count: 28681
+Word count: 187641
 
 BlackWilliam__YolandeThestoryofadaughter.txt
-Character count: 1084019
-Line count: 32073
-Word count: 207606
+Character count: 1013770
+Line count: 29593
+Word count: 194257
 
 BlackmoreRichardDoddridge__SpringhavenATaleofTheGreatWar.txt
-Character count: 1082141
+Character count: 1082133
 Line count: 18812
-Word count: 200516
+Word count: 200514
 
 BoyleFrederick__Agoodhater.txt
-Character count: 783030
-Line count: 26397
-Word count: 142874
+Character count: 781220
+Line count: 26299
+Word count: 142068
 
 BoyleFrederick__Thegoldenprimeanovel.txt
-Character count: 718382
-Line count: 22880
-Word count: 130136
+Character count: 716910
+Line count: 22800
+Word count: 129411
 
 BoyleFrederick__ThetreasureofThorburnsanovel.txt
-Character count: 681271
-Line count: 23066
-Word count: 124392
+Character count: 679198
+Line count: 22951
+Word count: 123462
 
 BrookfieldArthurMontagu__TheautobiographyofThomasAllen.txt
-Character count: 628069
-Line count: 18532
-Word count: 114192
+Character count: 424156
+Line count: 12514
+Word count: 76740
 
 BurnabyFred__Ourradicalsataleofloveandpolitics.txt
-Character count: 376753
-Line count: 12419
-Word count: 67724
+Character count: 353778
+Line count: 11711
+Word count: 63423
 
 BurrardWilliamDutton__Agreatplatonicfriendship.txt
-Character count: 990066
-Line count: 30032
-Word count: 182670
+Character count: 986691
+Line count: 29952
+Word count: 180327
 
 CaineHallSir__AsonofHagararomanceofourtime.txt
-Character count: 991222
+Character count: 989470
 Line count: 37664
-Word count: 182061
+Word count: 180714
 
 CaineHallSir__Thedeemsteraromance.txt
-Character count: 950224
-Line count: 30452
-Word count: 178320
+Character count: 948510
+Line count: 30417
+Word count: 177022
 
 CarletonWilliam__JaneSinclairOrTheFawnOfSpringvale.txt
 Character count: 322638
@@ -189,139 +189,139 @@ Line count: 247
 Word count: 12124
 
 CarletonWilliam__TheDeadBoxer.txt
-Character count: 158284
-Line count: 1141
-Word count: 28407
+Character count: 158203
+Line count: 1133
+Word count: 28397
 
 ChristieMurrayDavid__Alifesatonementanovel.txt
-Character count: 850712
-Line count: 23637
-Word count: 161437
+Character count: 570480
+Line count: 15613
+Word count: 108322
 
 ChristieMurrayDavid__Bythegateoftheseaintwovolumes.txt
-Character count: 363772
-Line count: 11750
-Word count: 65519
+Character count: 281019
+Line count: 8511
+Word count: 51926
 
 ClelandRobert__Arichmansrelatives.txt
-Character count: 823504
-Line count: 22434
-Word count: 153467
+Character count: 805794
+Line count: 21899
+Word count: 149344
 
 CliffeFrancisHenry__Canitbetrue.txt
-Character count: 440664
-Line count: 13242
-Word count: 79614
+Character count: 436689
+Line count: 13107
+Word count: 78804
 
 ColemanJohn__Therivalqueensastoryofthemodernstage.txt
-Character count: 587257
-Line count: 19522
-Word count: 108767
+Character count: 521946
+Line count: 17294
+Word count: 95901
 
 CollinsWilkie__Heartandscienceastoryofthepresenttime.txt
-Character count: 738323
-Line count: 22370
-Word count: 137378
+Character count: 727927
+Line count: 22048
+Word count: 134376
 
 CollinsWilkie__Isayno.txt
-Character count: 775657
-Line count: 27448
-Word count: 142502
+Character count: 681294
+Line count: 24331
+Word count: 123430
 
 CollinsWilkie__Jezebelsdaughter.txt
-Character count: 571774
+Character count: 570695
 Line count: 18220
-Word count: 107203
+Word count: 106339
 
 CollinsWilkie__Theblackrobe.txt
-Character count: 612293
-Line count: 19609
-Word count: 113186
+Character count: 337808
+Line count: 10769
+Word count: 62139
 
 CollinsWilkie__Theevilgeniusadomesticstory.txt
-Character count: 633043
-Line count: 21060
-Word count: 117406
+Character count: 631239
+Line count: 21023
+Word count: 116442
 
 CollinsWilkie__ThelegacyofCain.txt
-Character count: 665185
+Character count: 663702
 Line count: 20592
-Word count: 127047
+Word count: 125953
 
 ColombColonelGeorgeHatton__ForkingandKentatruestoryofthegreatrebellion.txt
-Character count: 1212382
-Line count: 31972
-Word count: 224536
+Character count: 821549
+Line count: 21537
+Word count: 150862
 
 CombeMartin__ArnoldRoburanovel.txt
-Character count: 1128380
-Line count: 30205
-Word count: 207142
+Character count: 1126686
+Line count: 30167
+Word count: 205977
 
 ConwayHugh__BoundtogetherTales.txt
-Character count: 547903
-Line count: 16290
-Word count: 103397
+Character count: 454901
+Line count: 13663
+Word count: 85075
 
 CresswellHenry__Awilywidow.txt
-Character count: 612869
-Line count: 20818
-Word count: 112484
+Character count: 567233
+Line count: 19579
+Word count: 104383
 
 CresswellHenry__Fairandfree.txt
-Character count: 763640
+Character count: 762741
 Line count: 24599
-Word count: 140772
+Word count: 139948
 
 CuffeWilliamUlickOConnon__MervynOConnorandothertales.txt
-Character count: 806665
-Line count: 25463
-Word count: 152232
+Character count: 749186
+Line count: 24116
+Word count: 141367
 
 CunninghamSirHenryStewart__TheCruleansavacationidyll.txt
-Character count: 529191
+Character count: 528357
 Line count: 11926
-Word count: 93984
+Word count: 93187
 
 CurwenHenry__LadyBluebeard.txt
-Character count: 714319
-Line count: 18223
-Word count: 133413
+Character count: 710755
+Line count: 18099
+Word count: 132556
 
 DAvigdorElimHenry__Glamouranovel.txt
-Character count: 755718
-Line count: 20076
-Word count: 139361
+Character count: 754741
+Line count: 20014
+Word count: 138903
 
 DavidsonHughColeman__ThegreenhillsbytheseaaManxstory.txt
-Character count: 724479
-Line count: 22172
-Word count: 130763
+Character count: 653068
+Line count: 20312
+Word count: 118117
 
 DavidsonHughColeman__TheoldAdamataleofanarmycrammer.txt
-Character count: 780579
-Line count: 23937
-Word count: 141312
+Character count: 696287
+Line count: 20883
+Word count: 126557
 
 DowlingRichard__AnisleofSurreyanovel.txt
-Character count: 571176
-Line count: 18984
-Word count: 109539
+Character count: 567873
+Line count: 18792
+Word count: 108727
 
 DowlingRichard__Tempestdrivenaromance.txt
-Character count: 551807
-Line count: 18707
-Word count: 104430
+Character count: 362703
+Line count: 12540
+Word count: 68672
 
 DowlingRichard__TheweirdsistersAromance.txt
-Character count: 576504
-Line count: 19717
-Word count: 109350
+Character count: 469534
+Line count: 16027
+Word count: 89148
 
 DowneyEdmund__InonetownAnovel.txt
-Character count: 501055
-Line count: 14141
-Word count: 93830
+Character count: 458517
+Line count: 12746
+Word count: 85331
 
 DoyleArthurConanSir__MicahClarkeHisStatementasMadetoHisThreeGrandchildrenJosephGervasReubenduringthe.txt
 Character count: 965103
@@ -329,254 +329,254 @@ Line count: 17302
 Word count: 177893
 
 EganPierce__QuintinMatsystheblacksmithofAntwerpanhistoricalromancebyPierceEgantheyounger.txt
-Character count: 1432112
-Line count: 61326
-Word count: 257264
+Character count: 1426800
+Line count: 61204
+Word count: 254644
 
 ErrollHenry__Theacademician.txt
-Character count: 586987
-Line count: 19833
-Word count: 109489
+Character count: 583937
+Line count: 19652
+Word count: 108286
 
 EsmondHenry__AlifeshazardorTheoutlawofWentworthWaste.txt
-Character count: 569225
-Line count: 19689
-Word count: 100220
+Character count: 566757
+Line count: 19607
+Word count: 99329
 
 FarjeonBenjaminLeopold__Asecretinheritance.txt
-Character count: 429586
+Character count: 429302
 Line count: 13420
-Word count: 81202
+Word count: 80961
 
 FarjeonBenjaminLeopold__Inasilversea.txt
-Character count: 788396
-Line count: 26045
-Word count: 151528
+Character count: 786210
+Line count: 25902
+Word count: 150652
 
 FarjeonBenjaminLeopold__MiserFarebrotherAnovel.txt
-Character count: 784608
-Line count: 20580
-Word count: 149329
+Character count: 780265
+Line count: 20295
+Word count: 147780
 
 FarjeonBenjaminLeopold__ToilersofBabylon.txt
-Character count: 431885
-Line count: 13775
-Word count: 81476
+Character count: 430512
+Line count: 13707
+Word count: 80962
 
 FennGeorgeManville__ElischildrenThechroniclesofanunhappyfamily.txt
-Character count: 880826
-Line count: 28993
-Word count: 168221
+Character count: 732858
+Line count: 24152
+Word count: 139507
 
 FennGeorgeManville__Ofhighdescentanovel.txt
-Character count: 800709
-Line count: 28380
-Word count: 154449
+Character count: 797865
+Line count: 28243
+Word count: 153465
 
 FennGeorgeManville__SweetMaceaSussexlegendoftheirontimes.txt
-Character count: 798281
-Line count: 25998
-Word count: 152369
+Character count: 517239
+Line count: 16949
+Word count: 98908
 
 FennGeorgeManville__Themanwithashadow.txt
-Character count: 689073
-Line count: 24743
-Word count: 132949
+Character count: 455392
+Line count: 16183
+Word count: 87638
 
 FennGeorgeManville__Themasteroftheceremoniesanovel.txt
-Character count: 990269
-Line count: 27519
-Word count: 187550
+Character count: 909983
+Line count: 25703
+Word count: 172374
 
 FieldJulianOsgood__LittlehandandmucklegoldAstudyoftoday.txt
-Character count: 1042313
-Line count: 28437
-Word count: 193471
+Character count: 1040107
+Line count: 28424
+Word count: 191817
 
 FitzgeraldGeraldBeresford__ClareStronganovel.txt
-Character count: 396821
-Line count: 12646
-Word count: 72902
+Character count: 314446
+Line count: 9599
+Word count: 57951
 
 FitzgeraldPercyHetherington__PuppetsAromance.txt
-Character count: 874627
-Line count: 25215
-Word count: 166273
+Character count: 871465
+Line count: 25108
+Word count: 164199
 
 ForbesUrquhartAtwell__OtterstoneHall.txt
-Character count: 961379
-Line count: 21774
-Word count: 176407
+Character count: 958347
+Line count: 21542
+Word count: 175331
 
 FothergillJohnM__GaythorneHallanovel.txt
-Character count: 932814
-Line count: 27252
-Word count: 171835
+Character count: 861342
+Line count: 25400
+Word count: 159303
 
 GambierJamesW__Swifterthanaweaversshuttleasketchfromlife.txt
-Character count: 956644
-Line count: 27223
-Word count: 180179
+Character count: 636592
+Line count: 17856
+Word count: 119251
 
 GaskellPhilip__Alionamongtheladiesanovel.txt
-Character count: 530149
-Line count: 16338
-Word count: 96945
+Character count: 525201
+Line count: 16096
+Word count: 95251
 
 GibbonCharles__Fancyfreeandotherstories.txt
-Character count: 845936
-Line count: 32994
-Word count: 152241
+Character count: 375571
+Line count: 12643
+Word count: 70746
 
 GibbonCharles__Ofhighdegreeastory.txt
-Character count: 770975
-Line count: 25222
-Word count: 145315
+Character count: 690382
+Line count: 22105
+Word count: 131463
 
 GibbonCharles__ThebraesofYarrowaromance.txt
-Character count: 866806
-Line count: 29874
-Word count: 159440
+Character count: 534653
+Line count: 18428
+Word count: 98974
 
 GissingGeorge__DemosastoryofEnglishsocialism.txt
-Character count: 1089984
-Line count: 32511
-Word count: 203029
+Character count: 1088425
+Line count: 32464
+Word count: 202248
 
 GissingGeorge__Theunclassedanovel.txt
-Character count: 920399
-Line count: 26228
-Word count: 171535
+Character count: 917929
+Line count: 26052
+Word count: 170633
 
 GrantAlexanderCharles__BushlifeinQueenslandorJohnWestscolonialexperiences.txt
-Character count: 745889
-Line count: 17502
-Word count: 133571
+Character count: 732183
+Line count: 17096
+Word count: 130484
 
 GrantJames__Colvilleoftheguards.txt
-Character count: 802775
-Line count: 25804
-Word count: 144883
+Character count: 728780
+Line count: 24003
+Word count: 131035
 
 GrantJames__DervalHamptonastoryofthesea.txt
-Character count: 399025
-Line count: 11951
-Word count: 73570
+Character count: 397304
+Line count: 11893
+Word count: 72721
 
 GrantJames__DulcieCarlyonanovel.txt
-Character count: 738073
-Line count: 23362
-Word count: 134146
+Character count: 731424
+Line count: 23041
+Word count: 131676
 
 GrantJames__Loveslabourwonanovel.txt
-Character count: 738236
-Line count: 21343
-Word count: 134472
+Character count: 735290
+Line count: 21272
+Word count: 132617
 
 GrantJames__ThemasterofAberfeldie.txt
-Character count: 699774
-Line count: 23316
-Word count: 128269
+Character count: 696771
+Line count: 23223
+Word count: 126494
 
 GrayArnold__Likelostsheepariversidestory.txt
-Character count: 916111
-Line count: 28369
-Word count: 171162
+Character count: 907740
+Line count: 28020
+Word count: 167471
 
 GrayArnold__Periwinkleanautobiography.txt
-Character count: 895123
-Line count: 26008
-Word count: 171770
+Character count: 889411
+Line count: 25878
+Word count: 167697
 
 GregPercy__Errantalifestoryoflatterdaychivalry.txt
-Character count: 1287296
-Line count: 30627
-Word count: 236409
+Character count: 864890
+Line count: 20242
+Word count: 158021
 
 GregPercy__Ivycousinandbride.txt
-Character count: 955970
-Line count: 25423
-Word count: 178066
+Character count: 953530
+Line count: 25330
+Word count: 176454
 
 GreyOliver__Avirginwidowanovel.txt
-Character count: 728497
-Line count: 22210
-Word count: 134694
+Character count: 725953
+Line count: 22095
+Word count: 133192
 
 GriffithsArthur__AsonofMars.txt
-Character count: 338038
-Line count: 10695
-Word count: 61192
+Character count: 336733
+Line count: 10616
+Word count: 60578
 
 GriffithsArthur__Thethinredline.txt
-Character count: 677880
-Line count: 21087
-Word count: 123076
+Character count: 539281
+Line count: 16003
+Word count: 98634
 
 GriffithsArthur__Thewrongroadbyhookorcrook.txt
-Character count: 806357
-Line count: 26465
-Word count: 147674
+Character count: 804107
+Line count: 26362
+Word count: 146463
 
 HaggardHRiderHenryRider__ColonelQuaritchVCataleofcountrylife.txt
-Character count: 661787
-Line count: 20546
-Word count: 126178
+Character count: 445501
+Line count: 13817
+Word count: 84845
 
 HakeThomasStEThomasStEdmund__Inlettersofgold.txt
-Character count: 478292
-Line count: 16266
-Word count: 85732
+Character count: 408736
+Line count: 14508
+Word count: 73685
 
 HalseGeorge__GrahamAspenpainteranovel.txt
-Character count: 617014
-Line count: 18530
-Word count: 110874
+Character count: 595908
+Line count: 17884
+Word count: 106880
 
 HardingeWilliamMoney__Eugeniaanepisode.txt
-Character count: 823043
-Line count: 23097
-Word count: 155303
+Character count: 817313
+Line count: 22891
+Word count: 152660
 
 HardingeWilliamMoney__ThewillowgarthAnovel.txt
-Character count: 494210
-Line count: 14082
-Word count: 96904
+Character count: 492799
+Line count: 14075
+Word count: 95626
 
 HarwoodJohnBerwick__SirRobertShirleybart.txt
-Character count: 718461
-Line count: 21457
-Word count: 128551
+Character count: 648743
+Line count: 19724
+Word count: 116050
 
 HattonJoseph__AmodernUlyssesBeingthelifelovesadventuresandstrangeexperiencesofHoraceDurand.txt
-Character count: 739051
-Line count: 22490
-Word count: 137958
+Character count: 379087
+Line count: 11958
+Word count: 71288
 
 HattonJoseph__TheoldhouseatSandwichthestoryofaruinedhomeasdevelopedinthestrangerevelationsofHickoryM.txt
-Character count: 595133
-Line count: 18668
-Word count: 113541
+Character count: 532995
+Line count: 16292
+Word count: 102938
 
 HattonJoseph__Threerecruitsandthegirlstheyleftbehindthemanovel.txt
-Character count: 708176
-Line count: 23325
-Word count: 130112
+Character count: 651832
+Line count: 21928
+Word count: 120366
 
 HillJohn__ThewatersofMarahanovel.txt
-Character count: 609216
-Line count: 19207
-Word count: 111154
+Character count: 607194
+Line count: 19101
+Word count: 110321
 
 HoffmannArthurA__Couldhedobetter.txt
-Character count: 769750
-Line count: 25090
-Word count: 140631
+Character count: 478945
+Line count: 15724
+Word count: 88219
 
 HolmesGeorge__FarmerJohn.txt
-Character count: 519333
-Line count: 16536
-Word count: 93877
+Character count: 466970
+Line count: 15161
+Word count: 84757
 
 HowellsWilliamDean__TheRiseofSilasLapham.txt
 Character count: 698667
@@ -584,32 +584,32 @@ Line count: 14419
 Word count: 128554
 
 Hubertopseud__TheghostofDunboyCastle.txt
-Character count: 686611
-Line count: 17884
-Word count: 124487
+Character count: 674799
+Line count: 17482
+Word count: 122034
 
 HudsonFrank__AverymadworldorMyselfandmyneighbourfair.txt
-Character count: 396236
-Line count: 13405
-Word count: 75909
+Character count: 393386
+Line count: 13246
+Word count: 74956
 
 HuntLeigh__StoriesfromtheItalianpoetswithcriticalnoticesofthelifeandgeniusoftheauthors.txt
-Character count: 1866652
-Line count: 47698
-Word count: 340530
+Character count: 1539271
+Line count: 39399
+Word count: 280271
 
 HunterPeterHay__Myducatsandmydaughter.txt
-Character count: 915368
-Line count: 27122
-Word count: 170406
+Character count: 911066
+Line count: 27051
+Word count: 167214
 
 IsabellJohn__BytheCornishsea.txt
-Character count: 515548
-Line count: 17217
-Word count: 94616
+Character count: 458085
+Line count: 15041
+Word count: 84916
 
 JamesHenry__TheBostonians.txt
-Character count: 901002
+Character count: 900970
 Line count: 15279
 Word count: 161683
 
@@ -619,452 +619,452 @@ Line count: 24907
 Word count: 230347
 
 JenkinsEdward__LisaLena.txt
-Character count: 465637
-Line count: 15141
-Word count: 86657
+Character count: 399442
+Line count: 13168
+Word count: 75262
 
 KingRichardAshe__Lovethedebt.txt
-Character count: 995716
-Line count: 28572
-Word count: 183469
+Character count: 985328
+Line count: 28055
+Word count: 180923
 
 LambertGeorgeNovelist__ThepowerofgoldAnovel.txt
-Character count: 629313
-Line count: 17986
-Word count: 114709
+Character count: 560512
+Line count: 16257
+Word count: 102810
 
 LeFanuJosephSheridan__ThePurcellpapers.txt
-Character count: 416560
+Character count: 415802
 Line count: 12619
-Word count: 75382
+Word count: 74781
 
 LeysJohnKirkwood__TheLindsaysaromanceofScottishlife.txt
-Character count: 745688
-Line count: 26058
-Word count: 138299
+Character count: 628538
+Line count: 20448
+Word count: 118835
 
 LucyHenryWilliam__GideonFleyceanovel.txt
-Character count: 934585
-Line count: 26935
-Word count: 168997
+Character count: 932045
+Line count: 26773
+Word count: 168370
 
 MacDonaldGeorge__Whatsminesmine.txt
-Character count: 826497
-Line count: 25801
-Word count: 161097
+Character count: 820291
+Line count: 25383
+Word count: 159150
 
 MackayCharles__ThetwinsoulorThestrangeexperiencesofMrRamesesApsychologicalandrealisticromance.txt
-Character count: 580158
-Line count: 12329
-Word count: 103630
+Character count: 577359
+Line count: 12182
+Word count: 102371
 
 MallockWilliamHurrellWH__Aromanceofthenineteenthcentury.txt
-Character count: 539201
-Line count: 15977
-Word count: 102283
+Character count: 537649
+Line count: 15902
+Word count: 101558
 
 MallockWilliamHurrellWH__Theoldorderchangesanovel.txt
-Character count: 838661
-Line count: 23604
-Word count: 157992
+Character count: 576120
+Line count: 16293
+Word count: 107881
 
 McCarthyJustin__TherebelroseAnovel.txt
-Character count: 920445
-Line count: 26733
-Word count: 171870
+Character count: 915736
+Line count: 26481
+Word count: 169819
 
 MerivaleHermanCharles__FaucitofBalliolAstoryintwoparts.txt
-Character count: 1815587
-Line count: 46167
-Word count: 334311
+Character count: 1515860
+Line count: 38234
+Word count: 277726
 
 MillsJohn__Onthespurofthemoment.txt
-Character count: 664903
-Line count: 21060
-Word count: 118030
+Character count: 613126
+Line count: 19788
+Word count: 108971
 
 MillsJohn__Toofasttolast.txt
-Character count: 812094
-Line count: 25042
-Word count: 143714
+Character count: 756142
+Line count: 23705
+Word count: 133990
 
 MoberlyA__LadyValeriaanovel.txt
-Character count: 847033
-Line count: 25396
-Word count: 157028
+Character count: 843498
+Line count: 25216
+Word count: 155637
 
 MolloyJosephFitzgerald__Itisnowonderastoryofbohemianlife.txt
-Character count: 733818
-Line count: 24390
-Word count: 134783
+Character count: 732617
+Line count: 24342
+Word count: 134383
 
 MooreGeorgeAugustus__AMummersWife.txt
-Character count: 778384
+Character count: 778314
 Line count: 14582
-Word count: 142228
+Word count: 142226
 
 MurrayDavidChristie__Heartsanovel.txt
-Character count: 869801
-Line count: 26247
-Word count: 161201
+Character count: 788005
+Line count: 23097
+Word count: 147598
 
 MurrayDavidChristie__Josephscoat.txt
-Character count: 945202
-Line count: 28020
-Word count: 175352
+Character count: 868437
+Line count: 25033
+Word count: 162400
 
 MurrayDavidChristie__Schwartz.txt
-Character count: 410808
+Character count: 410530
 Line count: 11035
-Word count: 75771
+Word count: 75505
 
 MurrayDavidChristie__Theweakervessel.txt
-Character count: 719676
+Character count: 719304
 Line count: 20772
-Word count: 134564
+Word count: 134276
 
 NorrisWilliamEdward__Abachelorsblunder.txt
-Character count: 941914
-Line count: 27039
-Word count: 178015
+Character count: 937724
+Line count: 26908
+Word count: 176676
 
 NorrisWilliamEdward__AdrianVidal.txt
-Character count: 806272
-Line count: 22619
-Word count: 151653
+Character count: 803658
+Line count: 22501
+Word count: 150660
 
 NorrisWilliamEdward__MademoiselledeMersac.txt
-Character count: 999360
-Line count: 26002
-Word count: 184767
+Character count: 995536
+Line count: 25813
+Word count: 183294
 
 NorrisWilliamEdward__Matrimony.txt
-Character count: 1126259
-Line count: 29849
-Word count: 209570
+Character count: 1068395
+Line count: 28265
+Word count: 197604
 
 NorrisWilliamEdward__MissShafto.txt
-Character count: 838683
-Line count: 25299
-Word count: 157364
+Character count: 836000
+Line count: 25163
+Word count: 156480
 
 NorrisWilliamEdward__MyfriendJim.txt
-Character count: 286576
-Line count: 8875
-Word count: 54064
+Character count: 285338
+Line count: 8789
+Word count: 53679
 
 NorrisWilliamEdward__Nonewthing.txt
-Character count: 1142145
-Line count: 30801
-Word count: 214690
+Character count: 1139932
+Line count: 30707
+Word count: 213505
 
 OliphantLaurence__AltioraPeto.txt
-Character count: 617665
-Line count: 15932
-Word count: 114545
+Character count: 615074
+Line count: 15806
+Word count: 113541
 
 PaynJames__Aprinceofthebloodanovel.txt
-Character count: 760790
-Line count: 21823
-Word count: 140265
+Character count: 487336
+Line count: 14056
+Word count: 89202
 
 PaynJames__Forcashonlyanovel.txt
-Character count: 880270
-Line count: 28284
-Word count: 162470
+Character count: 877312
+Line count: 28154
+Word count: 161032
 
 PaynJames__Kitamemory.txt
-Character count: 800268
-Line count: 24393
-Word count: 148415
+Character count: 797273
+Line count: 24256
+Word count: 147257
 
 PaynJames__TheCanonsward.txt
-Character count: 893781
-Line count: 28014
-Word count: 165576
+Character count: 890994
+Line count: 27895
+Word count: 164170
 
 PaynJames__Theheiroftheages.txt
-Character count: 832363
-Line count: 24052
-Word count: 154352
+Character count: 824691
+Line count: 23829
+Word count: 151915
 
 PaynJames__Thetalkofthetown.txt
-Character count: 543407
+Character count: 542715
 Line count: 15739
-Word count: 100344
+Word count: 99775
 
 PaynJames__Thickerthanwater.txt
-Character count: 852747
+Character count: 851607
 Line count: 24300
-Word count: 158166
+Word count: 157156
 
 PeileWOWalterOctavius__WestofSwardhamanovel.txt
-Character count: 650688
-Line count: 18930
-Word count: 118872
+Character count: 419964
+Line count: 12208
+Word count: 76402
 
 QuillerCouchArthur__TheSplendidSpur.txt
-Character count: 381145
-Line count: 8591
-Word count: 71024
+Character count: 371661
+Line count: 8410
+Word count: 69296
 
 RaeWilliamFraser__Amodernbrigand.txt
-Character count: 918825
-Line count: 26750
-Word count: 169516
+Character count: 914328
+Line count: 26466
+Word count: 168387
 
 ReadeCharles__Aperiloussecret.txt
-Character count: 548873
+Character count: 548245
 Line count: 17217
-Word count: 104774
+Word count: 104259
 
 ReidMayne__Noquarter.txt
-Character count: 675215
-Line count: 19008
-Word count: 122416
+Character count: 673426
+Line count: 18963
+Word count: 121170
 
 ReidMayne__ThefreelancesaromanceoftheMexicanvalley.txt
-Character count: 506076
-Line count: 15219
-Word count: 92727
+Character count: 159788
+Line count: 4852
+Word count: 29246
 
 ReidThomasWilson__GabrielleStuartorTheflowerofGreenanaScottishromance.txt
-Character count: 270338
+Character count: 269778
 Line count: 8570
-Word count: 48446
+Word count: 48077
 
 RichardsJamesBrinsley__PrinceRoderick.txt
-Character count: 700516
+Character count: 699835
 Line count: 21852
-Word count: 128213
+Word count: 127675
 
 RichardsJamesBrinsley__TheDukesmarriage.txt
-Character count: 1096823
-Line count: 29974
-Word count: 200377
+Character count: 740068
+Line count: 19964
+Word count: 134888
 
 RichardsonBenjaminWard__Thesonofastararomanceofthesecondcentury.txt
-Character count: 951128
-Line count: 28932
-Word count: 175120
+Character count: 949541
+Line count: 28816
+Word count: 174657
 
 RobinsonFrederickWilliam__Inbadhandsandothertales.txt
-Character count: 852593
-Line count: 26131
-Word count: 161684
+Character count: 811887
+Line count: 25054
+Word count: 153357
 
 RobinsonFrederickWilliam__Themanshecaredfor.txt
-Character count: 797298
-Line count: 25910
-Word count: 149057
+Character count: 794307
+Line count: 25782
+Word count: 147204
 
 RowlattRichard__Entrancedwithadreamanovel.txt
-Character count: 1007667
-Line count: 30141
-Word count: 193714
+Character count: 992872
+Line count: 29603
+Word count: 190820
 
 RussellWilliamClark__ASailorsSweetheartAnaccountofthewreckofthesailingshipWaldershareetcAnovel.txt
-Character count: 1116288
-Line count: 32265
-Word count: 211416
+Character count: 974137
+Line count: 27580
+Word count: 187415
 
 RussellWilliamClark__Jackscourtshipasailorsyarnofloveandshipwreck.txt
-Character count: 1469490
-Line count: 37570
-Word count: 280009
+Character count: 1402969
+Line count: 35250
+Word count: 268051
 
 RussellWilliamClark__Marooned.txt
-Character count: 1015306
-Line count: 26730
-Word count: 191887
+Character count: 1012930
+Line count: 26590
+Word count: 190969
 
 RussellWilliamClark__TheGoldenHopearomanceofthedeep.txt
-Character count: 929462
-Line count: 26121
-Word count: 171682
+Character count: 926409
+Line count: 25976
+Word count: 170575
 
 RussellWilliamClark__ThedeathshipastrangestoryanaccountofacruiseinTheFlyingDutchmancollectedfromthep.txt
-Character count: 492288
-Line count: 13888
-Word count: 91547
+Character count: 489368
+Line count: 13746
+Word count: 90745
 
 RussellWilliamClark__Thefrozenpirate.txt
-Character count: 585243
-Line count: 15018
-Word count: 111780
+Character count: 561297
+Line count: 14272
+Word count: 107071
 
 SalterPeterKing__WhitepatchAromanceforquietpeople.txt
-Character count: 681823
-Line count: 20926
-Word count: 127362
+Character count: 677841
+Line count: 20711
+Word count: 126119
 
 ScottHughStowell__Thephantomfuture.txt
-Character count: 508203
-Line count: 16002
-Word count: 92453
+Character count: 505811
+Line count: 15814
+Word count: 91650
 
 ScottHughStowell__YoungMistley.txt
-Character count: 480907
-Line count: 14734
-Word count: 87020
+Character count: 478891
+Line count: 14597
+Word count: 86214
 
 ShandAlexanderInnes__FortuneswheelAnovel.txt
-Character count: 945833
-Line count: 25377
-Word count: 170447
+Character count: 877023
+Line count: 23274
+Word count: 158740
 
 SharpWilliam__Thesportofchance.txt
-Character count: 928095
-Line count: 26122
-Word count: 171179
+Character count: 884422
+Line count: 24931
+Word count: 162829
 
 SherardRobertHarborough__Abarteredhonouranovel.txt
-Character count: 1008365
-Line count: 28967
-Word count: 188424
+Character count: 1003828
+Line count: 28732
+Word count: 187011
 
 ShorthouseJosephHenry__JohnInglesantaromance.txt
-Character count: 1060736
-Line count: 20761
-Word count: 190484
+Character count: 1042862
+Line count: 20319
+Word count: 186752
 
 SimeWilliam__HacothedreamerataleofScotchuniversitylife.txt
-Character count: 403675
+Character count: 403176
 Line count: 11813
-Word count: 76695
+Word count: 76292
 
 SinnettAlfredPercy__Unitedanovel.txt
-Character count: 621260
-Line count: 18976
-Word count: 115618
+Character count: 587760
+Line count: 17745
+Word count: 109561
 
 SmartHawley__Afalsestartanovel.txt
-Character count: 659333
-Line count: 19492
-Word count: 120853
+Character count: 655196
+Line count: 19309
+Word count: 119861
 
 SmartHawley__Atfault.txt
-Character count: 730707
-Line count: 20939
-Word count: 133099
+Character count: 726889
+Line count: 20728
+Word count: 132240
 
 SmartHawley__Fromposttofinishanovel.txt
-Character count: 693328
-Line count: 21417
-Word count: 127083
+Character count: 461706
+Line count: 14144
+Word count: 84316
 
 SmartHawley__Hardlinesanovel.txt
-Character count: 747222
-Line count: 21823
-Word count: 137405
+Character count: 744537
+Line count: 21641
+Word count: 136669
 
 SmartHawley__Longoddsanovel.txt
-Character count: 671973
-Line count: 20126
-Word count: 124786
+Character count: 665112
+Line count: 19806
+Word count: 123154
 
 SmartHawley__SaddleandsabreAnovel.txt
-Character count: 738558
-Line count: 21330
-Word count: 136050
+Character count: 737158
+Line count: 21232
+Word count: 135603
 
 SmartHawley__Tieandtrickamelodramaticstory.txt
-Character count: 761590
-Line count: 22536
-Word count: 138780
+Character count: 760539
+Line count: 22481
+Word count: 138282
 
 SmithJohnFrederick__StanfieldHallanhistoricalromance.txt
-Character count: 2964184
-Line count: 64107
-Word count: 538119
+Character count: 1989087
+Line count: 43927
+Word count: 358555
 
 SollyHenry__JamesWoodfordcarpenterandChartist.txt
-Character count: 677628
-Line count: 19232
-Word count: 126759
+Character count: 311558
+Line count: 8817
+Word count: 58421
 
 SollyHenry__LadyStellaandherlover.txt
-Character count: 1169700
-Line count: 28325
-Word count: 213167
+Character count: 1137377
+Line count: 27133
+Word count: 206117
 
 SturgisJulian__Comedyofacountryhouse.txt
-Character count: 438588
-Line count: 13043
-Word count: 83128
+Character count: 434330
+Line count: 12758
+Word count: 82286
 
 SturgisJulian__Dickswandering.txt
-Character count: 617234
-Line count: 17915
-Word count: 115714
+Character count: 616351
+Line count: 17875
+Word count: 115204
 
 SturgisJulian__JohnMaidment.txt
-Character count: 434958
-Line count: 12176
-Word count: 80760
+Character count: 403492
+Line count: 11169
+Word count: 75459
 
 TalbotThomas__TheGranvillesanIrishtale.txt
-Character count: 987222
-Line count: 27808
-Word count: 181264
+Character count: 924851
+Line count: 25668
+Word count: 170234
 
 TharpTheodoreA__TheswordofDamocles.txt
-Character count: 1503040
-Line count: 37233
-Word count: 273626
+Character count: 1443847
+Line count: 35248
+Word count: 261860
 
 ThomsonJoseph__UluanAfricanromance.txt
-Character count: 695981
-Line count: 18411
-Word count: 124019
+Character count: 692174
+Line count: 18210
+Word count: 123079
 
 VinceHenryScott__Twopardonsanovel.txt
-Character count: 785505
-Line count: 23258
-Word count: 147231
+Character count: 497273
+Line count: 14736
+Word count: 92883
 
 WestallWilliam__BirchDene.txt
-Character count: 851964
-Line count: 28186
-Word count: 162953
+Character count: 847780
+Line count: 27840
+Word count: 161164
 
 WestallWilliam__Hertwomillions.txt
-Character count: 904143
-Line count: 24772
-Word count: 170359
+Character count: 900347
+Line count: 24593
+Word count: 168881
 
 WestallWilliam__RedRyvington.txt
-Character count: 974494
-Line count: 27628
-Word count: 179851
+Character count: 918883
+Line count: 26246
+Word count: 169753
 
 WestburyHugh__FrederickHazzledenanovel.txt
-Character count: 543815
+Character count: 543365
 Line count: 15695
-Word count: 98459
+Word count: 98185
 
 WhelptonEdwin__MeadowsweetorThewooingofIphisapastoral.txt
-Character count: 847311
-Line count: 26888
-Word count: 156890
+Character count: 841371
+Line count: 26643
+Word count: 154996
 
 WillsCharlesJames__ThePitTowncoronetafamilymystery.txt
-Character count: 738891
-Line count: 22430
-Word count: 133359
+Character count: 469926
+Line count: 13978
+Word count: 85312
 
 WiltonMaurice__TheoldloveisthenewAnovel.txt
-Character count: 470711
-Line count: 15389
-Word count: 88830
+Character count: 468602
+Line count: 15219
+Word count: 88240
 
 WingfieldLewis__AbigelRoweAchronicleoftheregency.txt
-Character count: 1275407
-Line count: 29189
-Word count: 231312
+Character count: 1271309
+Line count: 28963
+Word count: 229709
 
 WingfieldLewis__BarbaraPhilpotastudyofmannersandmoralsto.txt
-Character count: 1223037
-Line count: 30728
-Word count: 220185
+Character count: 801294
+Line count: 19898
+Word count: 143718
 
