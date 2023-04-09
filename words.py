@@ -1,11 +1,13 @@
 import argparse
 import os
 import sys
-from collections import defaultdict
 import re
+from collections import defaultdict
+import glob
+from pathlib import Path
 import nltk
-
-word_freq = defaultdict(int)
+from nltk.corpus import stopwords
+import string
 
 def get_args():
     try:
@@ -13,60 +15,62 @@ def get_args():
             description='Word frequency counter across all texts')
         parser.add_argument('gender', type=str, metavar='gender',
             help="gender of writers for corpus")
+        parser.add_argument('unique', type=bool, metavar='unique',
+            help="unique words only")
         args = parser.parse_args()
         gender = args.gender
-        return gender
+        unique = args.unique
+        if gender != "female" and gender != "male":
+            print("Invalid gender of writers for corpus", file=sys.stderr)
+            sys.exit(1)
+        return gender, unique
     except Exception as ex:
         print(ex, file=sys.stderr)
         sys.exit(2)
 
-def get_path(gender):
-    path = ""
-    if gender == "female":
-        path = "data/1880sfemalecorpus"
-    elif gender == "male":
-        path = "data/1880smalecorpus"
+def get_word_freq(gender, unique=False):
+    directory = f"data_refined/{gender}"
+    files = glob.glob(f"{directory}/*.txt")
+    word_freq = defaultdict(int)
+    stop_words = set(stopwords.words('english'))
+    stop_words.update(["would", "could", "wouldnt", "couldnt", "said"])
+
+    if unique:
+        for file in files:
+            text = open(file, encoding='utf-8').read()
+            text = text.lower()
+            text = text.translate(str.maketrans('', '', string.punctuation.replace("-","")))
+            words = nltk.word_tokenize(text)
+            for word in words:
+                if word not in stop_words:
+                    word_freq[word] = word_freq.get(word, 0) + 1
     else:
-        print("Invalid gender of writers for corpus", file=sys.stderr)
-        sys.exit(1)
-    return path
+        for file in files:
+            text = open(file, encoding='utf-8').read()
+            text = text.lower()
+            words = nltk.word_tokenize(text)
+            for word in words:
+                word_freq[word] = word_freq.get(word, 0) + 1
 
-def get_text(file_path):
-    with open(file_path, 'r') as f:
-        text = f.read()
-        # Source: https://stackoverflow.com/questions/1342000/how-to-make-the-python-interpreter-correctly-handle-non-ascii-characters-in-stri
-        text = "".join([x if ord(x) < 128 and x != '^' else '' for x in text])
-    return text
+    return word_freq
 
-def update_word_freq(text):
-    tokenlist = nltk.word_tokenize(text)
-    for token in tokenlist:
-        word_freq[token] = word_freq.get(token, 0) + 1
-
-def create_output_file(gender, ordered_word_freq):
-    filename = ""
-    if gender == "female":
-        filename = "wordfreq_female.txt"
-    elif gender == "male":
-        filename = "wordfreq_male.txt"
-    new_path = "/Users/alicelee/Desktop/SPRING2023/IW/results/"
-    with open(new_path + filename, "w+") as f:
-        for w in ordered_word_freq:
-            f.write(w + ": " + str(ordered_word_freq[w]) + "\n")
+def write_to_output(gender, ordered_word_freq, unique=False):
+    p = Path('results/')
+    p.mkdir(parents=True, exist_ok=True)
+    fname = f"wordfreq_{gender}"
+    if unique:
+        fname += "_unique"
+    fname += ".txt"
+    filepath = p / fname
+    with filepath.open("w+", encoding ="utf-8") as f:
+        for word in ordered_word_freq:
+            f.write(word + ": " + str(ordered_word_freq[word]) + "\n")
 
 def main():
-    root = "/Users/alicelee/Desktop/SPRING2023/IW"
-    gender = get_args()
-    path = get_path(gender)
-    pwd = os.path.join(root, path)
-    os.chdir(pwd)
-    for file in sorted(os.listdir()):
-        if file.endswith(".txt"):
-            file_path = f"{pwd}/{file}"
-            text = get_text(file_path)
-            update_word_freq(text)
+    gender, unique = get_args()
+    word_freq = get_word_freq(gender, unique)
     ordered_word_freq = dict(reversed(sorted(word_freq.items(), key=lambda x:x[1])))
-    create_output_file(gender, ordered_word_freq)
+    write_to_output(gender, ordered_word_freq, unique)
 
 if __name__ == "__main__":
     main()
