@@ -1360,8 +1360,8 @@ room.
 
 E 2
 
-UNIVERSITY OF
-ILLINOIS LIBRARY,
+
+ ,
 
 CECIES EETUHN.
 
@@ -8661,6 +8661,6 @@ bored he felt in her society.
 E 2
 
 UNIVERSITY Of
-ILLINOIS LIBRARY
+ 
 
 THE Beginner OF 
