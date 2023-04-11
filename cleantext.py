@@ -28,39 +28,55 @@ def clean_text(gender):
         text = open(file, encoding='utf-8').read()
 
         # delete everything after the end
-        text = text.partition('THE END.')[0]
+        end = text.find('THE END.')
+        if end == -1:
+            end = text.find('THE EN1>')
+        if end != -1:
+            text = text[:end]
 
         # set temp to be text in lowercase
         temp = text.lower()
 
         # find index where the text starts
-        start_index = temp.find('chapter i.')
-        if start_index == -1:
-            start_index = temp.find('chapter 1.')
-        if start_index != -1:
-            text = text[start_index:]
-            temp = temp[start_index:]
+        start = temp.find('chapte')
+        if start != -1:
+            if temp.find('chapter i.') != -1:
+                start = temp.find('chapter i.')
+            elif temp.find('chapter 1.') != -1:
+                start = temp.find('chapter 1.')
+            text = text[start:]
+            temp = temp[start:]
        
         # get all indices indicating end of volume
-        volume_indices = []
         search_index = 0
+        end_words = ['END OF ', 'End OF ', 'END OP ', 'ED OF VOL']
         while True:
-            i = temp.find('end of vol.', search_index)
-            if i == -1:
+            i = temp.find('end of vol', search_index)
+            t = float('inf')
+            for end_word in end_words:
+                if text.find(end_word, search_index) != -1:
+                    t = min(t, text.find(end_word, search_index))
+            if i == -1 and t == -1:
                 break
-            volume_indices.append(i)
+            if i == -1 and t == float('inf'):
+                break
+            if i == -1:
+                i = t
+            if t != -1:
+                i = min(i, t)
             search_index = i + 1
+            n = temp.find('chapter', search_index)
+            if n != -1:
+                text = text[:i] + text[n:]
+                temp = temp[:i] + temp[n:]
         
-        # get rid of everything between end of volume and first chapter of the next volume
-        for i in volume_indices:
-            index = temp.find('chapter i.', i)
-            if index == -1:
-                index = temp.find('chapter 1.', i)
-            if index != -1:
-                text = text[:i] + text[index:]
-                temp = temp[:i] + temp[index:]
+        # remove occurrences of "library" and "university of illinois" from ocr scans
+        text = text.replace("LIBRARY", "")
+        text = text.replace("UNIVERSITY OF ILLINOIS", "")
+        text = text.replace("UNIVERSITY OF", "")
+        text = text.replace("ILLINOIS", "")
 
-        # final clean-up
+        # final clean-up, remove 
         text = "".join([x if ord(x) < 128 and x != '^' else '' for x in text])
 
         # write to output path
