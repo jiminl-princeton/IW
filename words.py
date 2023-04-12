@@ -32,24 +32,23 @@ def get_word_freq(gender, unique=False):
     directory = f"data_refined/{gender}"
     files = glob.glob(f"{directory}/*.txt")
     word_freq = defaultdict(int)
+    misspelled_words_file = f"results/misspelled_{gender}.txt"
+    misspelled_words = []
+    # with open(misspelled_words_file, encoding='utf-8') as f:
+    #     text = f.read()
+    #     misspelled_words = text.split()
     stop_words = set(stopwords.words('english'))
-    stop_words.update(["would", "could", "wouldnt", "couldnt", "said"])
+    stop_words.update(["would", "could", "wouldnt", "couldnt", "said"] + misspelled_words)
 
-    if unique:
-        for file in files:
-            text = open(file, encoding='utf-8').read()
+    for file in files:
+        text = open(file, encoding='utf-8').read()
+        text = ''.join([i for i in text if not i.isdigit()])
+        if unique:
             text = text.lower()
             text = text.translate(str.maketrans('', '', string.punctuation.replace("-","")))
-            words = nltk.word_tokenize(text)
-            for word in words:
-                if word not in stop_words:
-                    word_freq[word] = word_freq.get(word, 0) + 1
-    else:
-        for file in files:
-            text = open(file, encoding='utf-8').read()
-            text = text.lower()
-            words = nltk.word_tokenize(text)
-            for word in words:
+        words = nltk.word_tokenize(text)
+        for word in words:
+            if word not in stop_words:
                 word_freq[word] = word_freq.get(word, 0) + 1
 
     return word_freq

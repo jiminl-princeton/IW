@@ -30,19 +30,27 @@ def get_topics(gender):
     directory = f"data_refined/{gender}"
     files = glob.glob(f"{directory}/*.txt")
     training_data = []
+    misspelled_words_file = f"results/misspelled_{gender}.txt"
+    misspelled_words = []
+    # with open(misspelled_words_file, encoding='utf-8') as f:
+    #     text = f.read()
+    #     misspelled_words = text.split()
+
     stop_words = set(stopwords.words('english'))
-    stop_words.update(["would", "could", "wouldn't", "couldn't", "said", "one", "chapter", "vol", "volume", "volumes", "illinois"])
+    stop_words.update(["would", "could", "wouldn't", "couldn't", "said", "one", "chapter", "vol", "volume", "volumes", "illinois"] + misspelled_words)
     stop_words = list(stop_words)
     
     for file in files:
-        text = open(file, encoding='utf-8').read()
-        processed_text = little_mallet_wrapper.process_string(text, numbers='remove', stop_words=stop_words)
-        training_data.append(processed_text)
+        with open(file, encoding='utf-8') as f:
+            text = f.read()
+            processed_text = little_mallet_wrapper.process_string(text, numbers='remove', stop_words=stop_words)
+            training_data.append(processed_text)
 
     original_texts = []
     for file in files:
-        text = open(file, encoding='utf-8').read()
-        original_texts.append(text)
+        with open(file, encoding='utf-8') as f:
+            text = f.read()
+            original_texts.append(text)
 
     titles = [Path(file).stem for file in files]
 
