@@ -38,15 +38,19 @@ def clean_text(gender):
         temp = text.lower()
 
         # find index where the text starts
-        start = temp.find('chapte')
+        start = text.find('PROLOGUE.')
+        start_words = ['chapte', 'chapter i.', 'chapter 1.']
+        t = float('inf')
+        if start == -1:
+            for start_word in start_words:
+                if temp.find(start_word) != -1:
+                    t = min(t, temp.find(start_word))
+            if t != float('inf') and t != -1:
+                start = t
         if start != -1:
-            if temp.find('chapter i.') != -1:
-                start = temp.find('chapter i.')
-            elif temp.find('chapter 1.') != -1:
-                start = temp.find('chapter 1.')
             text = text[start:]
             temp = temp[start:]
-       
+
         # get all indices indicating end of volume
         search_index = 0
         end_words = ['END OF ', 'End OF ', 'END OP ', 'ED OF VOL']
@@ -56,14 +60,9 @@ def clean_text(gender):
             for end_word in end_words:
                 if text.find(end_word, search_index) != -1:
                     t = min(t, text.find(end_word, search_index))
-            if i == -1 and t == -1:
+            if i == -1 and (t == -1 or t == float('inf')):
                 break
-            if i == -1 and t == float('inf'):
-                break
-            if i == -1:
-                i = t
-            if t != -1:
-                i = min(i, t)
+            i = min(i, t)
             search_index = i + 1
             n = temp.find('chapter', search_index)
             if n != -1:
