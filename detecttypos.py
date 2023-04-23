@@ -12,20 +12,17 @@ def get_args():
             description='Word frequency counter across all texts')
         parser.add_argument('gender', type=str, metavar='gender',
             help="gender of writers for corpus")
-        parser.add_argument('unique', type=bool, metavar='unique',
-            help="unique words only")
         args = parser.parse_args()
         gender = args.gender
-        unique = args.unique
         if gender != "female" and gender != "male":
             print("Invalid gender of writers for corpus", file=sys.stderr)
             sys.exit(1)
-        return gender, unique
+        return gender
     except Exception as ex:
         print(ex, file=sys.stderr)
         sys.exit(2)
 
-def get_misspelled_words(gender, unique=False):
+def get_misspelled_words(gender):
     spell = SpellChecker()
     directory = f"data_refined/{gender}"
     files = glob.glob(f"{directory}/*.txt")
@@ -48,7 +45,7 @@ def write_to_output(gender, misspelled_words):
             f.write("\n")
 
 def main():
-    gender, unique = get_args()
+    gender = get_args()
     misspelled_words = get_misspelled_words(gender)
     misspelled_words = set(misspelled_words)
     write_to_output(gender, misspelled_words)

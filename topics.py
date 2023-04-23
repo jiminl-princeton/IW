@@ -30,14 +30,14 @@ def get_topics(gender):
     directory = f"data_refined/{gender}"
     files = glob.glob(f"{directory}/*.txt")
     training_data = []
-    misspelled_words_file = f"results/misspelled_{gender}.txt"
-    misspelled_words = []
+    # misspelled_words_file = f"results/misspelled_{gender}.txt"
+    # misspelled_words = []
     # with open(misspelled_words_file, encoding='utf-8') as f:
     #     text = f.read()
     #     misspelled_words = text.split()
 
     stop_words = set(stopwords.words('english'))
-    stop_words.update(["would", "could", "wouldn't", "couldn't", "said", "one", "chapter", "vol", "volume", "volumes", "illinois"] + misspelled_words)
+    stop_words.update(["said"])
     stop_words = list(stop_words)
     
     for file in files:
@@ -54,9 +54,9 @@ def get_topics(gender):
 
     titles = [Path(file).stem for file in files]
 
-    #little_mallet_wrapper.print_dataset_stats(training_data)
+    little_mallet_wrapper.print_dataset_stats(training_data)
 
-    num_topics = 15
+    num_topics = 5
 
     output_directory_path = f'results/{gender}'
 
@@ -85,10 +85,10 @@ def get_topics(gender):
                         path_to_word_diagnostics,
                         num_topics)
 
-    # topics = little_mallet_wrapper.load_topic_keys(path_to_topic_keys)
+    topics = little_mallet_wrapper.load_topic_keys(path_to_topic_keys)
 
-    # for topic_number, topic in enumerate(topics):
-    #     print(f"Topic {topic_number}\n\n{topic}\n")
+    for topic_number, topic in enumerate(topics):
+        print(f"Topic {topic_number}\n\n{topic}\n")
 
 def main():
     gender = get_args()
