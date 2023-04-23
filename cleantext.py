@@ -22,6 +22,8 @@ def get_args():
 
 def clean_text(gender):
     directory = f"data/1880s{gender}corpus"
+    # files = glob.glob(f"{directory}/PriceEleanorCEleanorCatherine__Redtowers.txt")
+    # files = glob.glob(f"{directory}/AlexanderMrs__Monaschoiceanovel.txt")
     files = glob.glob(f"{directory}/*.txt")
 
     for file in files:
@@ -38,34 +40,78 @@ def clean_text(gender):
         temp = text.lower()
 
         # find index where the text starts
-        start = text.find('PROLOGUE.')
-        start_words = ['chapte', 'chapter i.', 'chapter 1.']
-        t = float('inf')
-        if start == -1:
+        start = float('inf')
+        found = False
+        search_index = 0
+        prologue = ""
+        start_words = ['PROLOGUE', 'Prologue']
+        for start_word in start_words:
+            if text.find(start_word) != -1:
+                start = min(start, text.find(start_word))
+                if start == text.find(start_word):
+                    prologue = start_word
+                    search_index = start + 1
+                found = True
+        if found:
+            while True:
+                i = text.find(prologue, search_index)
+                if i == -1:
+                    break
+                start = i
+                search_index = i + 1
+        if not found:
+            start_words = ['chapter i.', 'chapter 1.', 'chaptee i.', 'chaptee 1.', 'hapter i.', 'hapter 1.', 'chapter i\n', 'chapter 1\n']
             for start_word in start_words:
                 if temp.find(start_word) != -1:
-                    t = min(t, temp.find(start_word))
-            if t != float('inf') and t != -1:
-                start = t
-        if start != -1:
+                    start = min(start, temp.find(start_word))
+                    found = True
+        if not found:
+            if text.find('CONTENT') != -1:
+                start = text.find('CONTENT')
+                found = True
+        # if not found:
+        #     start_words = ['CHAPTEE', 'CHAPT', 'CHAPTER', 'CHAP.', 'Chapter']
+        #     for start_word in start_words:
+        #         if text.find(start_word) != -1:
+        #             start = min(start, text.find(start_word))
+        #             found = True
+        if found:
             text = text[start:]
             temp = temp[start:]
-
+       
         # get all indices indicating end of volume
         search_index = 0
-        end_words = ['END OF ', 'End OF ', 'END OP ', 'ED OF VOL']
+        end_words = ['END OP VOL', 'ED OF VOL']
+        next_words = ['CHAPTER ', 'CHAPTER\n']
+        next_words_ = ['chapter i.', 'chapter 1.', 'chaptee i.', 'chaptee 1.', 'hapter i.', 'hapter 1.', 'chapter i\n', 'chapter 1\n']
+
         while True:
-            i = temp.find('end of vol', search_index)
-            t = float('inf')
-            for end_word in end_words:
-                if text.find(end_word, search_index) != -1:
-                    t = min(t, text.find(end_word, search_index))
-            if i == -1 and (t == -1 or t == float('inf')):
+            i = float('inf')
+            found = False
+            if temp.find('end of vol', search_index) != -1:
+                i = temp.find('end of vol', search_index)
+                found = True
+            if not found:
+                for end_word in end_words:
+                    if text.find(end_word, search_index) != -1:
+                        i = min(i, text.find(end_word, search_index))
+                        found = True
+            if not found:
                 break
-            i = min(i, t)
             search_index = i + 1
-            n = temp.find('chapter', search_index)
-            if n != -1:
+            n = float('inf')
+            found = False
+            # for next_word in next_words_:
+            #     if temp.find(next_word) != -1:
+            #         n = min(n, temp.find(next_word, search_index))
+            #         print(temp.find(next_word, search_index), search_index)
+            #         found = True
+            if not found:
+                for next_word in next_words:
+                    if text.find(next_word, search_index) != -1:
+                        n = min(n, text.find(next_word, search_index))
+                        found = True
+            if found:
                 text = text[:i] + text[n:]
                 temp = temp[:i] + temp[n:]
         
