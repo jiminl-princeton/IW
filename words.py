@@ -35,7 +35,7 @@ def get_word_freq(gender, unique=False):
     #     text = f.read()
     #     misspelled_words = text.split()
     stop_words = set(stopwords.words('english'))
-    stop_words.update(["said"])
+    stop_words.update(["would", "could", "said", "illinois"])
 
     for file in files:
         text = open(file, encoding='utf-8').read()

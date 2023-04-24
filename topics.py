@@ -37,7 +37,7 @@ def get_topics(gender):
     #     misspelled_words = text.split()
 
     stop_words = set(stopwords.words('english'))
-    stop_words.update(["said"])
+    stop_words.update(["would", "could", "said", "illinois"])
     stop_words = list(stop_words)
     
     for file in files:
