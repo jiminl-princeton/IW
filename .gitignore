@@ -1,4 +1,5 @@
 results/female/
 results/male/
-data_refined/female.zip
-data_refined/male.zip
+results/female_subset/
+results/male_subset/
+*.zip

@@ -8,6 +8,7 @@ import glob
 from pathlib import Path
 import nltk
 from nltk.corpus import stopwords
+import random
 
 def get_args():
     try:
@@ -27,14 +28,16 @@ def get_args():
 
 def get_topics(gender):
     path_to_mallet = '~/Mallet-202108/bin/mallet'
-    directory = f"data_refined/{gender}"
-    files = glob.glob(f"{directory}/*.txt")
+    sample_path = f"results/{gender}_subset_titles.txt"
+    sample = []
+    with open(sample_path, encoding='utf-8') as f:
+        text = f.read()
+        sample = text.split("\n")
+        sample = sample[:len(sample) - 1]
+    files = []
+    for s in sample:
+        files.append(f"data_refined/{gender}/" + s + ".txt")
     training_data = []
-    # misspelled_words_file = f"results/misspelled_{gender}.txt"
-    # misspelled_words = []
-    # with open(misspelled_words_file, encoding='utf-8') as f:
-    #     text = f.read()
-    #     misspelled_words = text.split()
 
     stop_words = set(stopwords.words('english'))
     stop_words.update(["would", "could", "said", "illinois"])
@@ -56,9 +59,9 @@ def get_topics(gender):
 
     little_mallet_wrapper.print_dataset_stats(training_data)
 
-    num_topics = 15
+    num_topics = 25
 
-    output_directory_path = f'results/{gender}'
+    output_directory_path = f'results/{gender}_subset'
 
     Path(f"{output_directory_path}").mkdir(parents=True, exist_ok=True)
 

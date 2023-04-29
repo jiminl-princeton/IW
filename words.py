@@ -52,7 +52,7 @@ def get_word_freq(gender, unique=False):
 def write_to_output(gender, ordered_word_freq):
     p = Path('results/')
     p.mkdir(parents=True, exist_ok=True)
-    fname = f"wordfreq_{gender}"
+    fname = f"words_{gender}"
     fname += ".txt"
     filepath = p / fname
     with filepath.open("w+", encoding ="utf-8") as f:

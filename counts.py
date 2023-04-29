@@ -44,7 +44,7 @@ def get_counts(gender):
 def write_to_output(gender, char_counts, line_counts, word_counts):
     p = Path('results/')
     p.mkdir(parents=True, exist_ok=True)
-    filepath = p / f'count_{gender}.txt'
+    filepath = p / f'counts_{gender}.txt'
     with filepath.open("w+", encoding ="utf-8") as f:
         for title in sorted(char_counts):
             f.write(title + "\n")
