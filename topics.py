@@ -1,4 +1,5 @@
-# Source: https://github.com/sceckert/IntroDHSpring2021/blob/main/_week9/introduction-to-topic-modeling.ipynb
+# Sources:
+# Eckert, S. C. (2021). Introduction to Topic Modeling. IntroDHSpring2021. https://github.com/sceckert/IntroDHSpring2021/blob/main/_week9/introduction-to-topic-modeling.ipynb
 
 import sys
 import argparse
