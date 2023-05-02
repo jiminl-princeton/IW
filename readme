@@ -1,4 +1,17 @@
-Sources of Code:
+### Descriptions of Important Code:
+
+authors.py: A Python program that takes the gender of writers from the command line and outputs a plain text file of all authors and the number of works by them that are included in the specified corpus.
+authors.ipynb: A Python Jupyter Notebook written on Colab that plots a bar graph of Number of Works vs. Authors for each corpus.
+clean_text.py: A Python program that takes the gender of writers from the command line, removes some extraneous metadata without modifying the original dataset, and outputs the refined corpus of plain text files.
+counts.py: A Python program that takes the gender of writers from the command line and outputs a plain text file of character, line, and word counts for each work in the specified corpus.
+topics.py: A Python program with code adapted from Eckert, 2021 that takes the gender of writers from the command line, trains a topic model on the specified dataset, and outputs the training data, model, topic keys, topic distributions, word weights, and word diagnostics.
+topic_analysis.ipynb: A Python Jupyter Notebook written on Colab that plots a bar graph of Number of Occurrences vs. Word for each corpus and also prints the divergence between some topics of interest.
+topics_heatmaps.ipynb: A Python Juypter Notebook written on Colab that prints topic keys for each model trained with a unique value for the number of topics and also plots heatmaps of Topics vs. Works for the models trained with 15 topics.
+venn_diagram.ipynb: A Python Jupyter Notebook written on Colab that generates venn diagrams of the number of overlapping and unique words across the two corpora for topic models trained with different numbers of topics.
+word_cloud.ipynb: A Python Jupyter Notebook written on Colab that generates a word cloud for each corpus based on the word frequencies.
+words.py: A Python program that takes the gender of writers from the command line and outputs a plain text file of all authors and the number of times they appear in the specified corpus.
+
+### Sources of Code:
 
 abhigoya. (2021). How to read multiple text files from folder in Python?. GeeksforGeeks. https://www.geeksforgeeks.org/how-to-read-multiple-text-files-from-folder-in-python/
 cs95. (2019). How to extract the file name from a file path? [duplicate]. Stack Overflow. https://stackoverflow.com/questions/45113157/how-to-extract-the-file-name-from-a-file-path
