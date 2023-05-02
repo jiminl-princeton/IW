@@ -1,4 +1,5 @@
-# Source: https://github.com/gunthercox/ChatterBot/issues/930
+# Sources:
+# Kosuri, M. (2017). NLTK SSL Errors loading…. GitHub. https://github.com/gunthercox/ChatterBot/issues/930
 
 import nltk
 import ssl

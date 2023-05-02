@@ -29,6 +29,10 @@ def get_counts(gender):
     line_counts = defaultdict(int)
     word_counts = defaultdict(int)
     
+    # Sources: 
+    # abhigoya. (2021). How to read multiple text files from folder in Python?. GeeksforGeeks. https://www.geeksforgeeks.org/how-to-read-multiple-text-files-from-folder-in-python/
+    # cs95. (2019). How to extract the file name from a file path? [duplicate]. Stack Overflow. https://stackoverflow.com/questions/45113157/how-to-extract-the-file-name-from-a-file-path
+    # W3Schools. (2023). Python String split() Method. https://www.w3schools.com/python/ref_string_split.asp#:~:text=The%20split()%20method%20splits,number%20of%20elements%20plus%20one
     for file in files:
         text = open(file, encoding='utf-8').read()
         cc = len(text)

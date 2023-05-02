@@ -37,6 +37,8 @@ def get_word_freq(gender, unique=False):
     stop_words = set(stopwords.words('english'))
     stop_words.update(["would", "could", "said", "illinois"])
 
+    # Sources:
+    # Dean, C. (2017). How can I customize what characters are filtered out using string.punctuation?. Stack Overflow. https://stackoverflow.com/questions/45427439/how-can-i-customize-what-characters-are-filtered-out-using-string-punctuation
     for file in files:
         text = open(file, encoding='utf-8').read()
         text = ''.join([i for i in text if not i.isdigit()])

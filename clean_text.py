@@ -29,6 +29,11 @@ def clean_text(gender):
     for file in files:
         text = open(file, encoding='utf-8').read()
 
+        # Sources:
+        # Hadzhiev, B. (2023). Remove everything Before or After a Character in Python. BobbyHadz. https://bobbyhadz.com/blog/python-remove-everything-after-character
+        # Mazdak. (2017). How can I remove everything in a string until a character(s) are seen in Python. Stack Overflow. https://stackoverflow.com/questions/33141595/how-can-i-remove-everything-in-a-string-until-a-characters-are-seen-in-python
+        # manjeet_04. (2023). Python | All occurrences of substring in string. GeeksforGeeks. https://www.geeksforgeeks.org/python-all-occurrences-of-substring-in-string/#
+
         # delete everything after the end
         end = text.find('THE END.')
         if end == -1:
@@ -121,8 +126,14 @@ def clean_text(gender):
         text = text.replace("UNIVERSITY OF", "")
         text = text.replace("ILLINOIS", "")
 
+        # Sources: 
+        # https://stackoverflow.com/questions/1342000/how-to-make-the-python-interpreter-correctly-handle-non-ascii-characters-in-stri
+        
         # final clean-up, remove 
         text = "".join([x if ord(x) < 128 and x != '^' else '' for x in text])
+
+        # Sources:
+        # Till. (2017). Create new folder with pathlib and write files into it. Stack Overflow. https://stackoverflow.com/questions/47518669/create-new-folder-with-pathlib-and-write-files-into-it
 
         # write to output path
         p1 = Path('data_refined/')

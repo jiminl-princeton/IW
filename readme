@@ -4,14 +4,18 @@ abhigoya. (2021). How to read multiple text files from folder in Python?. Geeksf
 cs95. (2019). How to extract the file name from a file path? [duplicate]. Stack Overflow. https://stackoverflow.com/questions/45113157/how-to-extract-the-file-name-from-a-file-path
 Dean, C. (2017). How can I customize what characters are filtered out using string.punctuation?. Stack Overflow. https://stackoverflow.com/questions/45427439/how-can-i-customize-what-characters-are-filtered-out-using-string-punctuation
 Eytan, O. (2016). Matplotlib - How to plot a high resolution graph? (Martin, Ed.). Stack Overflow. https://stackoverflow.com/questions/39870642/matplotlib-how-to-plot-a-high-resolution-graph
+farenorth. (2016). How to set ax.legend fontsize? [duplicate]. Stack Overflow. https://stackoverflow.com/questions/35652711/how-to-set-ax-legend-fontsize
 Hadzhiev, B. (2023). Remove everything Before or After a Character in Python. BobbyHadz. https://bobbyhadz.com/blog/python-remove-everything-after-character
 Holtz, Y. (2018). Venn Diagram. The Python Graph Gallery. https://www.python-graph-gallery.com/venn-diagram/
+Kassies, R. (2013). Setting Yaxis in Matplotlib using Pandas (gpr, Ed.). Stack Overflow. https://stackoverflow.com/questions/17787366/setting-yaxis-in-matplotlib-using-pandas
 Kosuri, M. (2017). NLTK SSL Errors loading…. GitHub. https://github.com/gunthercox/ChatterBot/issues/930
+Lima, D. (2020). Set the legend location of a pandas plot. Stack Overflow. https://stackoverflow.com/questions/59791884/set-the-legend-location-of-a-pandas-plot
 manjeet_04. (2023). Python | All occurrences of substring in string. GeeksforGeeks. https://www.geeksforgeeks.org/python-all-occurrences-of-substring-in-string/#
 Mazdak. (2017). How can I remove everything in a string until a character(s) are seen in Python. Stack Overflow. https://stackoverflow.com/questions/33141595/how-can-i-remove-everything-in-a-string-until-a-characters-are-seen-in-python
 Mueller, A. (2012). word_cloud. GitHub. https://github.com/amueller/word_cloud
 Mueller, A. (2013). simple.py. GitHub. https://github.com/amueller/word_cloud/blob/master/examples/simple.py
 NargesooTv. (2018). Create wordcloud from dictionary values (Do-me, Ed.). Stack Overflow. https://stackoverflow.com/questions/43145199/create-wordcloud-from-dictionary-values
+pandas. (2023). pandas.DataFrame.plot.barh. https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.barh.html
 Pythonspot. (2021). NLTK stop words. Python Tutorials. https://pythonspot.com/nltk-stop-words/
 W3Schools. (2023). Python String split() Method. https://www.w3schools.com/python/ref_string_split.asp#:~:text=The%20split()%20method%20splits,number%20of%20elements%20plus%20one
 Till. (2017). Create new folder with pathlib and write files into it. Stack Overflow. https://stackoverflow.com/questions/47518669/create-new-folder-with-pathlib-and-write-files-into-it

@@ -36,6 +36,9 @@ def get_topics(gender):
     #     text = f.read()
     #     misspelled_words = text.split()
 
+    # Sources:
+    # Pythonspot. (2021). NLTK stop words. Python Tutorials. https://pythonspot.com/nltk-stop-words/
+
     stop_words = set(stopwords.words('english'))
     stop_words.update(["would", "could", "said", "illinois"])
     stop_words = list(stop_words)
