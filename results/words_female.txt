@@ -1,6 +1,4 @@
-would: 120261
 one: 101197
-could: 81675
 little: 70733
 mr: 59777
 like: 57026
@@ -10646,7 +10644,6 @@ fills: 132
 succumbed: 132
 bestowing: 132
 countrymen: 132
-illinois: 132
 smelt: 132
 insults: 132
 admittance: 132

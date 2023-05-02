@@ -56,7 +56,7 @@ def get_topics(gender):
 
     little_mallet_wrapper.print_dataset_stats(training_data)
 
-    num_topics = 15
+    num_topics = 20
 
     output_directory_path = f'results/{gender}'
 
